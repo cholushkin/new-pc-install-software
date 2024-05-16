@@ -8,7 +8,7 @@ if (!(Test-Path -Path "$env:ProgramData\Chocolatey")) {
 }
 
 # for each package in the list, check if installed and update if necessary
-Get-Content ".\packages" | ForEach-Object {
+Get-Content ".\packages.txt" | ForEach-Object {
     $packageName = ($_ -split "\r\n")[0]
     if ((choco list --local-only $packageName) -match $packageName) {
         Write-Host "$packageName is already installed. Updating..."

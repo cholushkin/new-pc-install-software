@@ -27,3 +27,6 @@ cmake.install
 powertoys
 aimp
 fsviewer
+screentogif
+rufus
+ilspy
