@@ -1,0 +1,1310 @@
+PS C:\temp\new-pc-install-software-master> .\install-packages.ps1
+Chocolatey is not installed. Installing Chocolatey...
+Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+Getting latest version of the Chocolatey package for download.
+Not using proxy.
+Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/2.2.2.
+Downloading https://community.chocolatey.org/api/v2/package/chocolatey/2.2.2 to C:\Users\Maxim\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+Not using proxy.
+Extracting C:\Users\Maxim\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\Maxim\AppData\Local\Temp\chocolatey\chocoInstall
+Installing Chocolatey on the local machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at 'C:\Users\Maxim\Documents\PowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+Installing asio4all...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+asio4all
+By installing, you accept licenses for the packages.
+Progress: Downloading asio4all 2.15.20230722... 100%
+
+asio4all v2.15.20230722 [Approved]
+asio4all package files install completed. Performing other installation steps.
+Downloading asio4all
+  from 'https://asio4all.org/downloads/ASIO4ALL_2_15_English.exe'
+
+Download of ASIO4ALL_2_15_English.exe (-1 B) completed.
+Hashes match.
+Installing asio4all...
+asio4all has been installed.
+  asio4all may be able to be automatically uninstalled.
+ The install of asio4all was successful.
+  Software installed as 'EXE', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing googlechrome...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+googlechrome
+By installing, you accept licenses for the packages.
+Progress: Downloading chocolatey-compatibility.extension 1.0.0... 100%
+
+chocolatey-compatibility.extension v1.0.0 [Approved]
+chocolatey-compatibility.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-compatibility extensions.
+ The install of chocolatey-compatibility.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-compatibility'
+Progress: Downloading chocolatey-core.extension 1.4.0... 100%
+
+chocolatey-core.extension v1.4.0 [Approved]
+chocolatey-core.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-core extensions.
+ The install of chocolatey-core.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+Progress: Downloading GoogleChrome 125.0.6422.60... 100%
+
+GoogleChrome v125.0.6422.60 [Approved]
+GoogleChrome package files install completed. Performing other installation steps.
+Downloading googlechrome 64 bit
+  from 'https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\GoogleChrome\125.0.6422.60\googlechromestandaloneenterprise64.msi (116.39 MB).
+Download of googlechromestandaloneenterprise64.msi (116.39 MB) completed.
+Hashes match.
+Installing googlechrome...
+googlechrome has been installed.
+  GoogleChrome may be able to be automatically uninstalled.
+ The install of GoogleChrome was successful.
+  Software installed as 'MSI', install location is likely default.
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing notepadplusplus...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+notepadplusplus
+By installing, you accept licenses for the packages.
+Progress: Downloading notepadplusplus.install 8.6.7... 100%
+
+notepadplusplus.install v8.6.7 [Approved]
+notepadplusplus.install package files install completed. Performing other installation steps.
+Installing 64-bit notepadplusplus.install...
+notepadplusplus.install has been installed.
+WARNING: No registry key found based on  'Notepad\+\+*'
+notepadplusplus.install installed to 'C:\Program Files\Notepad++'
+Added C:\ProgramData\chocolatey\bin\notepad++.exe shim pointed to 'c:\program files\notepad++\notepad++.exe'.
+  notepadplusplus.install can be automatically uninstalled.
+ The install of notepadplusplus.install was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading notepadplusplus 8.6.7... 100%
+
+notepadplusplus v8.6.7 [Approved]
+notepadplusplus package files install completed. Performing other installation steps.
+ The install of notepadplusplus was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip-top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+Installing vlc...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+vlc
+By installing, you accept licenses for the packages.
+Progress: Downloading vlc.install 3.0.20... 25%[NuGet] Error downloading 'vlc.install.3.0.20 : chocolatey-core.extension [1.3.3, )' from 'https://community.chocolatey.org/api/v2/package/vlc.install/3.0.20'.
+[NuGet] End of Central Directory record could not be found.
+Progress: Downloading vlc.install 3.0.20... 100%
+
+vlc.install v3.0.20 [Approved]
+vlc.install package files install completed. Performing other installation steps.
+Installing 64-bit vlc.install...
+vlc.install has been installed.
+WARNING: No registry key found based on  'vlc.install'
+WARNING: Can't find vlc.install install location
+  vlc.install may be able to be automatically uninstalled.
+ The install of vlc.install was successful.
+  Software installed to 'C:\Program Files\VideoLAN\VLC'
+Progress: Downloading vlc 3.0.20... 100%
+
+vlc v3.0.20 [Approved]
+vlc package files install completed. Performing other installation steps.
+ The install of vlc was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\vlc'
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing potplayer...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+potplayer
+By installing, you accept licenses for the packages.
+Progress: Downloading potplayer 23.08.30... 100%
+
+potplayer v23.8.30 [Approved]
+potplayer package files install completed. Performing other installation steps.
+If an older version of PotPlayer is running on this machine, it will be closed prior to the installation of the newer version.
+Downloading potplayer 64 bit
+  from 'https://www.hakkah.net/potplayer/PotPlayerSetup64-230830.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\potplayer\23.8.30\PotPlayerSetup64-230830.exe (33.76 MB).
+Download of PotPlayerSetup64-230830.exe (33.76 MB) completed.
+Hashes match.
+Installing potplayer...
+potplayer has been installed.
+  potplayer may be able to be automatically uninstalled.
+ The install of potplayer was successful.
+  Software installed as 'exe', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing inkscape...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+inkscape
+By installing, you accept licenses for the packages.
+Progress: Downloading InkScape 1.3.2... 100%
+
+InkScape v1.3.2 [Approved]
+InkScape package files install completed. Performing other installation steps.
+WARNING: No registry key found based on  'InkScape*'
+Installing 64-bit InkScape...
+InkScape has been installed.
+Added C:\ProgramData\chocolatey\bin\inkscape.exe shim pointed to 'c:\program files\inkscape\bin\inkscape.exe'.
+InkScape installed to 'C:\Program Files\Inkscape'
+  InkScape may be able to be automatically uninstalled.
+ The install of InkScape was successful.
+  Software installed to 'C:\Program Files\Inkscape\'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing paint.net...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+paint.net
+By installing, you accept licenses for the packages.
+Progress: Downloading paint.net 5.0.13... 100%
+
+paint.net v5.0.13 [Approved]
+paint.net package files install completed. Performing other installation steps.
+Installing 64-bit paint.net...
+paint.net has been installed.
+paint.net installed to 'C:\Program Files\paint.net'
+paint.net registered as paint
+  paint.net may be able to be automatically uninstalled.
+ The install of paint.net was successful.
+  Software installed as 'msi', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing gimp...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+gimp
+By installing, you accept licenses for the packages.
+Progress: Downloading gimp 2.10.38... 100%
+
+gimp v2.10.38 [Approved]
+gimp package files install completed. Performing other installation steps.
+System.Collections.Hashtable
+Downloading gimp
+  from 'https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\gimp\2.10.38\gimp-2.10.38-setup.exe (328.51 MB).
+Download of gimp-2.10.38-setup.exe (328.51 MB) completed.
+Hashes match.
+Installing gimp...
+gimp has been installed.
+  gimp can be automatically uninstalled.
+ The install of gimp was successful.
+  Software installed to 'C:\Program Files\GIMP 2\'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing windirstat...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+windirstat
+By installing, you accept licenses for the packages.
+Progress: Downloading windirstat 1.1.2.20161210... 100%
+
+windirstat v1.1.2.20161210 [Approved]
+windirstat package files install completed. Performing other installation steps.
+Installing WinDirStat...
+WinDirStat has been installed.
+  windirstat may be able to be automatically uninstalled.
+ The install of windirstat was successful.
+  Software installed to 'C:\Program Files (x86)\WinDirStat'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing steam...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+steam
+By installing, you accept licenses for the packages.
+Progress: Downloading steam 2.10.91.91221129... 100%
+
+steam v2.10.91.91221129 [Approved]
+steam package files install completed. Performing other installation steps.
+WARNING: Url has SSL/TLS available, switching to HTTPS for download
+Downloading steam
+  from 'https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\steam\2.10.91.91221129\SteamSetup.exe (2.27 MB).
+Download of SteamSetup.exe (2.27 MB) completed.
+Error - hashes do not match. Actual value was '5D8D697707C89466CFE203BDE7E242680D020646BD5E49EDAABD67FC6A7D6321'.
+ERROR: Checksum for 'C:\Users\Maxim\AppData\Local\Temp\chocolatey\steam\2.10.91.91221129\SteamSetup.exe' did not meet '3B616CB0BEAACFFB53884B5BA0453312D2577DB598D2A877A3B251125FB281A1' for checksum type 'SHA256'. Consider passing the actual checksums through with --checksum --checksum64 once you validate the checksums are appropriate. A less secure option is to pass --ignore-checksums if necessary.
+The install of steam was NOT successful.
+Error while running 'C:\ProgramData\chocolatey\lib\steam\tools\chocolateyInstall.ps1'.
+ See log for details.
+
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Failures
+ - steam (exited -1) - Error while running 'C:\ProgramData\chocolatey\lib\steam\tools\chocolateyInstall.ps1'.
+ See log for details.
+Installing googleearthpro...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+googleearthpro
+By installing, you accept licenses for the packages.
+Progress: Downloading googleearthpro 7.3.6.20240404... 100%
+
+googleearthpro v7.3.6.20240404 [Approved]
+googleearthpro package files install completed. Performing other installation steps.
+Downloading googleearthpro 64 bit
+  from 'https://dl.google.com/dl/earth/client/advanced/current/googleearthprowin-7.3.6-x64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\googleearthpro\7.3.6.20240404\googleearthprowin-7.3.6-x64.exe (67.62 MB).
+Download of googleearthprowin-7.3.6-x64.exe (67.62 MB) completed.
+Hashes match.
+Installing googleearthpro...
+googleearthpro has been installed.
+  googleearthpro may be able to be automatically uninstalled.
+ The install of googleearthpro was successful.
+  Software installed as 'EXE', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Enjoy using Chocolatey? Explore more amazing features to take your
+experience to the next level at
+ https://chocolatey.org/compare
+Installing googledrive...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+googledrive
+By installing, you accept licenses for the packages.
+Progress: Downloading googledrive 90.0.3... 100%
+
+googledrive v90.0.3 [Approved]
+googledrive package files install completed. Performing other installation steps.
+WARNING: No registry key found based on  'Google Drive*'
+Downloading googledrive
+  from 'https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\googledrive\90.0.3\GoogleDriveSetup.exe (177.29 MB).
+Download of GoogleDriveSetup.exe (177.29 MB) completed.
+Hashes match.
+Installing googledrive...
+2024-05-17T20:43:02.853ZI [7136:NonCelloThread] i18n.cc:338:InitializeI18n I18n initialized with en
+googledrive has been installed.
+Only an exit code of non-zero will fail the package by default. Set
+ `--failonstderr` if you want error messages to also fail a script. See
+ `choco -h` for details.
+  googledrive may be able to be automatically uninstalled.
+ The install of googledrive was successful.
+  Software installed to 'C:\Program Files\Google\Drive File Stream\90.0.3.0\GoogleDriveFS.exe'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing manictime...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+manictime
+By installing, you accept licenses for the packages.
+Progress: Downloading DotNet4.5 4.5.20120822... 100%
+
+DotNet4.5 v4.5.20120822 [Approved]
+DotNet4.5 package files install completed. Performing other installation steps.
+Microsoft .Net 4.5 Framework is already installed on your machine.
+ The install of DotNet4.5 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading manictime.install 4.0.15... 100%
+
+manictime.install v4.0.15 [Approved]
+manictime.install package files install completed. Performing other installation steps.
+Downloading manictime.install
+  from 'https://cdn.manictime.com/setup/v4_0_15_0/ManicTimeSetup.msi'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\manictime.install\4.0.15\ManicTimeSetup.msi (11.16 MB).
+Download of ManicTimeSetup.msi (11.16 MB) completed.
+Hashes match.
+Installing manictime.install...
+manictime.install has been installed.
+  manictime.install may be able to be automatically uninstalled.
+ The install of manictime.install was successful.
+  Software installed as 'msi', install location is likely default.
+Progress: Downloading manictime 4.0.15... 100%
+
+manictime v4.0.15 [Approved]
+manictime package files install completed. Performing other installation steps.
+ The install of manictime was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing python...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+python
+By installing, you accept licenses for the packages.
+Progress: Downloading chocolatey-windowsupdate.extension 1.0.5... 100%
+
+chocolatey-windowsupdate.extension v1.0.5 [Approved]
+chocolatey-windowsupdate.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-windowsupdate extensions.
+ The install of chocolatey-windowsupdate.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate'
+Progress: Downloading KB2919442 1.0.20160915... 100%
+
+KB2919442 v1.0.20160915 [Approved] - Possibly broken
+KB2919442 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of KB2919442 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB2919355 1.0.20160915... 100%
+
+KB2919355 v1.0.20160915 [Approved] - Possibly broken
+KB2919355 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of KB2919355 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB2999226 1.0.20181019... 100%
+
+KB2999226 v1.0.20181019 [Approved]
+KB2999226 package files install completed. Performing other installation steps.
+Skipping installation because update KB2999226 does not apply to this operating system (Microsoft Windows 11 Pro).
+ The install of KB2999226 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB3035131 1.0.3... 100%
+
+KB3035131 v1.0.3 [Approved]
+KB3035131 package files install completed. Performing other installation steps.
+Skipping installation because update KB3035131 does not apply to this operating system (Microsoft Windows 11 Pro).
+ The install of KB3035131 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading KB3033929 1.0.5... 100%
+
+KB3033929 v1.0.5 [Approved]
+KB3033929 package files install completed. Performing other installation steps.
+Skipping installation because update KB3033929 does not apply to this operating system (Microsoft Windows 11 Pro).
+ The install of KB3033929 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading vcredist140 14.38.33135... 100%
+
+vcredist140 v14.38.33135 [Approved]
+vcredist140 package files install completed. Performing other installation steps.
+Runtime for architecture x86 version 14.38.33135 is already installed.
+Runtime for architecture x64 version 14.38.33135 is already installed.
+ The install of vcredist140 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading vcredist2015 14.0.24215.20170201... 100%
+
+vcredist2015 v14.0.24215.20170201 [Approved]
+vcredist2015 package files install completed. Performing other installation steps.
+ The install of vcredist2015 was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\vcredist2015'
+Progress: Downloading python312 3.12.3... 100%
+
+python312 v3.12.3 [Approved]
+python312 package files install completed. Performing other installation steps.
+Installing 64-bit python312...
+python312 has been installed.
+Added C:\ProgramData\chocolatey\bin\python3.12.exe shim pointed to 'c:\python312\python.exe'.
+Python installed to: 'C:\Python312'
+Restricting write permissions to Administrators
+  python312 can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of python312 was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading python3 3.12.3... 100%
+
+python3 v3.12.3 [Approved]
+python3 package files install completed. Performing other installation steps.
+ The install of python3 was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\python3'
+Progress: Downloading python 3.12.3... 100%
+
+python v3.12.3 [Approved]
+python package files install completed. Performing other installation steps.
+ The install of python was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\python'
+
+Chocolatey installed 11/11 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Installed:
+ - chocolatey-windowsupdate.extension v1.0.5
+ - KB2919355 v1.0.20160915
+ - KB2919442 v1.0.20160915
+ - KB2999226 v1.0.20181019
+ - KB3033929 v1.0.5
+ - KB3035131 v1.0.3
+ - python v3.12.3
+ - python3 v3.12.3
+ - python312 v3.12.3
+ - vcredist140 v14.38.33135
+ - vcredist2015 v14.0.24215.20170201
+Installing git...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+git
+By installing, you accept licenses for the packages.
+Progress: Downloading git.install 2.45.1... 100%
+
+git.install v2.45.1 [Approved]
+git.install package files install completed. Performing other installation steps.
+Using Git LFS
+Installing 64-bit git.install...
+git.install has been installed.
+git.install installed to 'C:\Program Files\Git'
+  git.install can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of git.install was successful.
+  Software installed to 'C:\Program Files\Git\'
+Progress: Downloading git 2.45.1... 100%
+
+git v2.45.1 [Approved]
+git package files install completed. Performing other installation steps.
+ The install of git was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\git'
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing tortoisegit...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+tortoisegit
+By installing, you accept licenses for the packages.
+Progress: Downloading TortoiseGit 2.16.0... 100%
+
+tortoisegit v2.16.0 [Approved]
+tortoisegit package files install completed. Performing other installation steps.
+WARNING: No registry key found based on  'TortoiseGit*'
+Installing 64-bit tortoisegit...
+tortoisegit has been installed.
+  tortoisegit may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of tortoisegit was successful.
+  Software installed as 'msi', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing cpu-z...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+cpu-z
+By installing, you accept licenses for the packages.
+Progress: Downloading cpu-z.install 2.9.0.20240123... 100%
+
+cpu-z.install v2.9.0.20240123 [Approved]
+cpu-z.install package files install completed. Performing other installation steps.
+Downloading cpu-z.install
+  from 'https://download.cpuid.com/cpu-z/cpu-z_2.09-en.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\cpu-z.install\2.9.0.20240123\cpu-z_2.09-en.exe (2.13 MB).
+Download of cpu-z_2.09-en.exe (2.13 MB) completed.
+Hashes match.
+Installing cpu-z.install...
+cpu-z.install has been installed.
+WARNING: No registry key found based on  'cpu-z'
+cpu-z.install installed to 'C:\Program Files\CPUID\CPU-Z'
+cpu-z.install registered as cpuz
+  cpu-z.install can be automatically uninstalled.
+ The install of cpu-z.install was successful.
+  Software installed to 'C:\Program Files\CPUID\CPU-Z\'
+Progress: Downloading cpu-z 2.9.0.20240123... 100%
+
+cpu-z v2.9.0.20240123 [Approved]
+cpu-z package files install completed. Performing other installation steps.
+ The install of cpu-z was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing gpu-z...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+gpu-z
+By installing, you accept licenses for the packages.
+Progress: Downloading gpu-z 2.59.0... 100%
+
+gpu-z v2.59.0 [Approved]
+gpu-z package files install completed. Performing other installation steps.
+
+ The install of gpu-z was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing chocolateygui...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+chocolateygui
+By installing, you accept licenses for the packages.
+Progress: Downloading chocolatey-dotnetfx.extension 1.0.1... 100%
+
+chocolatey-dotnetfx.extension v1.0.1
+chocolatey-dotnetfx.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-dotnetfx extensions.
+ The install of chocolatey-dotnetfx.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-dotnetfx'
+Progress: Downloading dotnetfx 4.8.0.20220524... 100%
+
+dotnetfx v4.8.0.20220524 [Approved]
+dotnetfx package files install completed. Performing other installation steps.
+Microsoft .NET Framework 4.8 or later is already installed.
+ The install of dotnetfx was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading ChocolateyGUI 2.1.1... 100%
+
+chocolateygui v2.1.1 [Approved]
+chocolateygui package files install completed. Performing other installation steps.
+Installing ChocolateyGUI...
+ChocolateyGUI has been installed.
+Added C:\ProgramData\chocolatey\bin\chocolateygui.exe shim pointed to 'c:\program files (x86)\chocolatey gui\chocolateygui.exe'.
+Added C:\ProgramData\chocolatey\bin\chocolateyguicli.exe shim pointed to 'c:\program files (x86)\chocolatey gui\chocolateyguicli.exe'.
+  chocolateygui may be able to be automatically uninstalled.
+ The install of chocolateygui was successful.
+  Software installed as 'msi', install location is likely default.
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip-top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+Installing blender...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+blender
+By installing, you accept licenses for the packages.
+Progress: Downloading vcredist2008 9.0.30729.616104... 100%
+
+vcredist2008 v9.0.30729.616104 [Approved]
+vcredist2008 package files install completed. Performing other installation steps.
+Downloading vcredist2008 64 bit
+  from 'https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\vcredist2008\9.0.30729.616104\vcredist_x64.exe (4.97 MB).
+Download of vcredist_x64.exe (4.97 MB) completed.
+Hashes match.
+Installing vcredist2008...
+vcredist2008 has been installed.
+Downloading vcredist2008 32 bit
+  from 'https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\vcredist2008\9.0.30729.616104\vcredist_x86.exe (4.28 MB).
+Download of vcredist_x86.exe (4.28 MB) completed.
+Hashes match.
+Installing vcredist2008...
+vcredist2008 has been installed.
+  vcredist2008 may be able to be automatically uninstalled.
+ The install of vcredist2008 was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading blender 4.1.1... 100%
+
+blender v4.1.1 [Approved]
+blender package files install completed. Performing other installation steps.
+Downloading blender 64 bit
+  from 'https://download.blender.org/release/Blender4.1/blender-4.1.1-windows-x64.msi'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\blender\4.1.1\blender-4.1.1-windows-x64.msi (327.27 MB).
+Download of blender-4.1.1-windows-x64.msi (327.27 MB) completed.
+Hashes match.
+Installing blender...
+blender has been installed.
+  blender may be able to be automatically uninstalled.
+ The install of blender was successful.
+  Software installed to 'C:\Program Files\Blender Foundation\Blender 4.1\'
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing jetbrains-rider...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+jetbrains-rider
+By installing, you accept licenses for the packages.
+Progress: Downloading jetbrains-rider 2024.1.2... 100%
+
+jetbrains-rider v2024.1.2 [Approved]
+jetbrains-rider package files install completed. Performing other installation steps.
+C:\Program Files (x86)\JetBrains
+Downloading jetbrains-rider
+  from 'https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.2.exe'
+Progress: 30% - Saving 353.33 MB of 1.15 GB                                                                                                                                                                                                     Progress: 33% - Saving 396.67 MB of 1.15 GB                                                               Progress: 34% - Saving 407.56 MB of 1.15 GB                                                                                                                                                                                                                   Progress: 36% - Saving 430.08 MB of 1.15 GB                 Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\jetbrains-rider\2024.1.2\JetBrains.Rider-2024.1.2.exe (1.15 GB).
+Download of JetBrains.Rider-2024.1.2.exe (1.15 GB) completed.
+Hashes match.
+Installing jetbrains-rider...
+jetbrains-rider has been installed.
+  jetbrains-rider may be able to be automatically uninstalled.
+ The install of jetbrains-rider was successful.
+  Software installed to 'C:\Program Files (x86)\JetBrains\JetBrains Rider 2024.1.2'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing ilspy...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+ilspy
+By installing, you accept licenses for the packages.
+Progress: Downloading KB3063858 1.0.0... 100%
+
+KB3063858 v1.0.0 [Approved]
+KB3063858 package files install completed. Performing other installation steps.
+Skipping installation because update KB3063858 does not apply to this operating system (Microsoft Windows 11 Pro).
+ The install of KB3063858 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Progress: Downloading dotnet-6.0-desktopruntime 6.0.30... 100%
+
+dotnet-6.0-desktopruntime v6.0.30 [Approved]
+dotnet-6.0-desktopruntime package files install completed. Performing other installation steps.
+Downloading dotnet-6.0-desktopruntime 64 bit
+  from 'https://download.visualstudio.microsoft.com/download/pr/b14af665-ca5f-40a5-b0a9-4c7ca9ff1072/dfc3ab88e4dfbcece4fb7ee5246c406b/windowsdesktop-runtime-6.0.30-win-x64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\dotnet-6.0-desktopruntime\6.0.30\windowsdesktop-runtime-6.0.30-win-x64.exe (54.67 MB).
+Download of windowsdesktop-runtime-6.0.30-win-x64.exe (54.67 MB) completed.
+Hashes match.
+Installing dotnet-6.0-desktopruntime...
+dotnet-6.0-desktopruntime has been installed.
+Downloading dotnet-6.0-desktopruntime
+  from 'https://download.visualstudio.microsoft.com/download/pr/94bd5cf9-0c22-4790-89c6-d1ce4b4fe952/2a01badbae5ec0c3e199f3c2a7ae764f/windowsdesktop-runtime-6.0.30-win-x86.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\dotnet-6.0-desktopruntime\6.0.30\windowsdesktop-runtime-6.0.30-win-x86.exe (49.63 MB).
+Download of windowsdesktop-runtime-6.0.30-win-x86.exe (49.63 MB) completed.
+Hashes match.
+Installing dotnet-6.0-desktopruntime...
+dotnet-6.0-desktopruntime has been installed.
+  dotnet-6.0-desktopruntime may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of dotnet-6.0-desktopruntime was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading ilspy 8.2.0... 100%
+
+ilspy v8.2.0 [Approved]
+ilspy package files install completed. Performing other installation steps.
+Extracting 64-bit C:\ProgramData\chocolatey\lib\ilspy\tools\ILSpy_binaries_8.2.0.7535-x64.zip to C:\ProgramData\chocolatey\lib\ilspy\tools...
+C:\ProgramData\chocolatey\lib\ilspy\tools
+ ShimGen has successfully created a gui shim for ILSpy.exe
+ The install of ilspy was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\ilspy\tools'
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing drawpile...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+drawpile
+By installing, you accept licenses for the packages.
+Progress: Downloading drawpile 2.1.20... 100%
+
+drawpile v2.1.20 [Approved]
+drawpile package files install completed. Performing other installation steps.
+Downloading drawpile 64 bit
+  from 'https://drawpile.net/files/win/drawpile-2.1.20-setup.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\drawpile\2.1.20\drawpile-2.1.20-setup.exe (15.85 MB).
+Download of drawpile-2.1.20-setup.exe (15.85 MB) completed.
+Hashes match.
+Installing drawpile...
+drawpile has been installed.
+  drawpile can be automatically uninstalled.
+ The install of drawpile was successful.
+  Software installed to 'C:\Program Files\Drawpile\'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing krita...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+krita
+By installing, you accept licenses for the packages.
+Progress: Downloading krita 5.2.2... 100%
+
+krita v5.2.2 [Approved]
+krita package files install completed. Performing other installation steps.
+Installing 64-bit krita...
+krita has been installed.
+  krita can be automatically uninstalled.
+ The install of krita was successful.
+  Software installed to 'C:\Program Files\Krita (x64)'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing lightshot...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+lightshot
+By installing, you accept licenses for the packages.
+Progress: Downloading lightshot.install 5.5.0.720221014... 100%
+
+lightshot.install v5.5.0.720221014 [Approved]
+lightshot.install package files install completed. Performing other installation steps.
+Downloading lightshot.install
+  from 'https://app.prntscr.com/build/setup-lightshot.exe'
+
+Download of setup-lightshot.exe (-1 B) completed.
+Hashes match.
+Installing lightshot.install...
+lightshot.install has been installed.
+  lightshot.install can be automatically uninstalled.
+ The install of lightshot.install was successful.
+  Software installed to 'C:\Program Files (x86)\Skillbrains\lightshot\'
+Progress: Downloading lightshot 5.5.0.720221014... 100%
+
+lightshot v5.5.0.720221014 [Approved]
+lightshot package files install completed. Performing other installation steps.
+ The install of lightshot was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\lightshot'
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing cmake.install...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+cmake.install
+By installing, you accept licenses for the packages.
+Progress: Downloading cmake.install 3.29.3... 100%
+
+cmake.install v3.29.3 [Approved]
+cmake.install package files install completed. Performing other installation steps.
+Installing 64-bit cmake.install...
+cmake.install has been installed.
+WARNING: Note that this package follows the default behaviour of the 'cmake' installer and does not add cmake.exe to the PATH.
+WARNING: Please see https://gitlab.kitware.com/cmake/cmake/-/issues/21465 for more information.
+WARNING: If you need cmake.exe on the PATH, please see the package description at https://community.chocolatey.org/packages/cmake.install/#description for options.
+  cmake.install may be able to be automatically uninstalled.
+ The install of cmake.install was successful.
+  Software installed to 'C:\Program Files\CMake\'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Enjoy using Chocolatey? Explore more amazing features to take your
+experience to the next level at
+ https://chocolatey.org/compare
+Installing powertoys...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+powertoys
+By installing, you accept licenses for the packages.
+Progress: Downloading dotnet-8.0-desktopruntime 8.0.5... 100%
+
+dotnet-8.0-desktopruntime v8.0.5 [Approved]
+dotnet-8.0-desktopruntime package files install completed. Performing other installation steps.
+Downloading dotnet-8.0-desktopruntime 64 bit
+  from 'https://download.visualstudio.microsoft.com/download/pr/0ff148e7-bbf6-48ed-bdb6-367f4c8ea14f/bd35d787171a1f0de7da6b57cc900ef5/windowsdesktop-runtime-8.0.5-win-x64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\dotnet-8.0-desktopruntime\8.0.5\windowsdesktop-runtime-8.0.5-win-x64.exe (55.68 MB).
+Download of windowsdesktop-runtime-8.0.5-win-x64.exe (55.68 MB) completed.
+Hashes match.
+Installing dotnet-8.0-desktopruntime...
+dotnet-8.0-desktopruntime has been installed.
+Downloading dotnet-8.0-desktopruntime
+  from 'https://download.visualstudio.microsoft.com/download/pr/44a63708-94fa-4edf-81a9-50612e4ef82f/1c9f61bc16d3bec6217337951898dbd3/windowsdesktop-runtime-8.0.5-win-x86.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\dotnet-8.0-desktopruntime\8.0.5\windowsdesktop-runtime-8.0.5-win-x86.exe (51.22 MB).
+Download of windowsdesktop-runtime-8.0.5-win-x86.exe (51.22 MB) completed.
+Hashes match.
+Installing dotnet-8.0-desktopruntime...
+dotnet-8.0-desktopruntime has been installed.
+  dotnet-8.0-desktopruntime may be able to be automatically uninstalled.
+ The install of dotnet-8.0-desktopruntime was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading dotnet-desktopruntime 8.0.5... 100%
+
+dotnet-desktopruntime v8.0.5 [Approved]
+dotnet-desktopruntime package files install completed. Performing other installation steps.
+ The install of dotnet-desktopruntime was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\dotnet-desktopruntime'
+Progress: Downloading powertoys 0.80.1... 100%
+
+powertoys v0.80.1 [Approved]
+powertoys package files install completed. Performing other installation steps.
+Downloading powertoys 64 bit
+  from 'https://github.com/microsoft/PowerToys/releases/download/v0.80.1/PowerToysSetup-0.80.1-x64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\powertoys\0.80.1\PowerToysSetup-0.80.1-x64.exe (253.95 MB).
+Download of PowerToysSetup-0.80.1-x64.exe (253.95 MB) completed.
+Hashes match.
+Installing powertoys...
+powertoys has been installed.
+  powertoys may be able to be automatically uninstalled.
+ The install of powertoys was successful.
+  Software installed to 'C:\Program Files\PowerToys\'
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing aimp...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+aimp
+By installing, you accept licenses for the packages.
+Progress: Downloading aimp 5.30.2549.20240508... 100%
+
+aimp v5.30.2549.20240508 [Approved]
+aimp package files install completed. Performing other installation steps.
+Downloading aimp 64 bit
+  from 'https://aimp.ru/files/windows/builds/aimp_5.30.2549_w64.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\aimp\5.30.2549.20240508\aimp_5.30.2549_w64.exe (18.22 MB).
+Download of aimp_5.30.2549_w64.exe (18.22 MB) completed.
+Hashes match.
+Installing aimp...
+aimp has been installed.
+  aimp may be able to be automatically uninstalled.
+ The install of aimp was successful.
+  Software installed as 'EXE', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip-top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+Installing fsviewer...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+fsviewer
+By installing, you accept licenses for the packages.
+Progress: Downloading fsviewer 7.8.0... 100%
+
+fsviewer v7.8.0 [Approved]
+fsviewer package files install completed. Performing other installation steps.
+Downloading fsviewer
+  from 'https://www.faststonesoft.net/DN/FSViewerSetup78.exe'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\fsviewer\7.8.0\FSViewerSetup78.exe (7.79 MB).
+Download of FSViewerSetup78.exe (7.79 MB) completed.
+Hashes match.
+Installing fsviewer...
+fsviewer has been installed.
+  fsviewer may be able to be automatically uninstalled.
+ The install of fsviewer was successful.
+  Software installed as 'EXE', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing screentogif...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+screentogif
+By installing, you accept licenses for the packages.
+Progress: Downloading ffmpeg 7.0.0... 100%
+
+ffmpeg v7.0.0 [Approved]
+ffmpeg package files install completed. Performing other installation steps.
+Extracting 64-bit C:\ProgramData\chocolatey\lib\ffmpeg\tools\ffmpeg-release-essentials.7z to C:\ProgramData\chocolatey\lib\ffmpeg\tools...
+C:\ProgramData\chocolatey\lib\ffmpeg\tools
+Removing extracted archive.
+Sleeping for 2 seconds to allow anti-viruses to finish scanning...
+Renaming ffmpeg directory to common name (Try 1 / 3)
+Successfully renamed directory.
+ ShimGen has successfully created a shim for ffmpeg.exe
+ ShimGen has successfully created a shim for ffplay.exe
+ ShimGen has successfully created a shim for ffprobe.exe
+ The install of ffmpeg was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\ffmpeg\tools'
+Progress: Downloading screentogif.portable 2.41.0... 100%
+
+screentogif.portable v2.41.0 [Approved]
+screentogif.portable package files install completed. Performing other installation steps.
+Downloading screentogif 64 bit
+  from 'https://github.com/NickeManarin/ScreenToGif/releases/download/2.41/ScreenToGif.2.41.Portable.x64.zip'
+Progress: 100% - Completed download of C:\Users\Maxim\AppData\Local\Temp\chocolatey\screentogif.portable\2.41.0\ScreenToGif.2.41.Portable.x64.zip (75.16 MB).
+Download of ScreenToGif.2.41.Portable.x64.zip (75.16 MB) completed.
+Hashes match.
+Extracting C:\Users\Maxim\AppData\Local\Temp\chocolatey\screentogif.portable\2.41.0\ScreenToGif.2.41.Portable.x64.zip to C:\ProgramData\chocolatey\lib\screentogif.portable\content...
+C:\ProgramData\chocolatey\lib\screentogif.portable\content
+ ShimGen has successfully created a shim for ScreenToGif.exe
+ The install of screentogif.portable was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\screentogif.portable\content'
+Progress: Downloading screentogif 2.41.0... 100%
+
+screentogif v2.41.0 [Approved]
+screentogif package files install completed. Performing other installation steps.
+ The install of screentogif was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\screentogif'
+
+Chocolatey installed 3/3 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing rufus...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+rufus
+By installing, you accept licenses for the packages.
+Progress: Downloading rufus 4.4.0... 100%
+
+rufus v4.4.0 [Approved]
+rufus package files install completed. Performing other installation steps.
+ ShimGen has successfully created a shim for rufus.exe
+ The install of rufus was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\rufus'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+Installing ilspy...
+Chocolatey v2.2.2
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+ilspy
+By installing, you accept licenses for the packages.
+ilspy v8.2.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+
+Chocolatey installed 0/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Warnings:
+ - ilspy - ilspy v8.2.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
