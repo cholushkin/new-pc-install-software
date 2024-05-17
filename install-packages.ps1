@@ -2,9 +2,13 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
-# install chocolatey if not installed
-if (!(Test-Path -Path "$env:ProgramData\Chocolatey")) {
-  Invoke-Expression((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+# Check if Chocolatey is installed and print the version or install if not
+if (Test-Path -Path "$env:ProgramData\Chocolatey\bin\choco.exe") {
+    $chocoVersion = choco --version
+    Write-Host "Chocolatey version $chocoVersion is installed."
+} else {
+    Write-Host "Chocolatey is not installed. Installing Chocolatey..."
+    Invoke-Expression((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
 # for each package in the list, check if installed and update if necessary
