@@ -35,6 +35,8 @@ Below is a list of software that I commonly install on a new Windows PC, each of
   - npp coverter
   - npp export
 - rider
+- linqpad
+- anki
 - unity
 - bitwig
 - photoshop/illustrator
